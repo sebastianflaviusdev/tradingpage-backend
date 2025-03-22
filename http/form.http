@@ -1,0 +1,19 @@
+### Save Form
+POST http://localhost:8080/form
+Content-Type: application/json
+
+{
+  "name": "Seba",
+  "email": "sebastianemail@gmail.com",
+  "phone": "123456789",
+  "experience": false,
+  "strategy": "SMC",
+  "hasAccount": true,
+  "accountBalance": "1000000$",
+  "goal": "Freedom",
+  "job": "Dev",
+  "salary": "10k",
+  "amountGoal": "1M",
+  "missingFromAchievingGoal": "Have no Time",
+  "investmentAmount": "10000 EUR"
+}
