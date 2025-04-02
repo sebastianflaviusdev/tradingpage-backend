@@ -31,7 +31,7 @@ public class Form {
 
     private String goal;
     private String job;
-
+45                                                                                                                                                                                                                          5r
     private String salary;
     @Column("amount_goal")
     private String amountGoal;

@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/form")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://master.d337akwnsdc650.amplifyapp.com"})
 @RequiredArgsConstructor
 public class FormController {
     private final FormService formService;
